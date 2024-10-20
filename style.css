@@ -1,0 +1,60 @@
+body {
+  background-image: url(./halloween.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(./halloween-512_512.gif);
+  }
+}
+
+#upgrade-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-self: center;
+}
+
+#top {
+  display: flex;
+  justify-content: center;
+}
+
+#reset {
+  padding: 10px 24px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+#brains-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 80px;
+}
+
+button {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  gap: 30%;
+}
